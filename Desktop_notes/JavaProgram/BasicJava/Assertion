@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class AssertionException{
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter your age: ");
+      int age = sc.nextInt();
+      //assert age = 18 : "Not void";
+      System.out.println("Age is = "+age);
+
+    }
+}

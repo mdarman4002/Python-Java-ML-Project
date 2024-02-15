@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Job Application
+    </title>
+</head>
+<body>
+    <form >
+        <h2>Job Form</h2>
+        <label for="Name">Name: </label>
+        <br>
+        <input type="text" id="Name" placeholder="Enter your name">
+        <br>
+        <label for="Email">Email</label>
+        <br>
+        <input type="text" id="Email" placeholder="abc@gmail.com">
+        <br>
+        <label for="phone">Phone no</label>
+        <br>
+        <input type="tel" pattern="[0-9]" id="phone" placeholder="1234567890">
+        <br>
+        <label for="Resume">Resume</label>
+        <br>
+        <input type="file" name="Resume" id="Resume">
+        <br>
+        <label for="Experience">Experience(in years)</label>
+        <br>
+        <input type="number" id="Experience"min="0" max="50" >
+        <br><br>
+        <fieldset>
+            <legend>Skill</legend>
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox"  id="checkbox1">
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox"  id="checkbox2">
+            <label for="checkbox3">JavaScript</label>
+            <input type="checkbox" name="" id="checkbox3">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Highest Qualification</legend>
+            <select name="Qualification" id="Qualification">
+                <option value="10th">10th</option>
+                <option value="12h">12th</option>
+                <option value="UG">UG</option>
+                <option value="PG">PG</option>
+            </select>
+            <h5>Availability</h5>
+            <select name="Availability" id="Availability">
+                <option value="Full-Time">Full-Time</option>
+                <option value="Half-Time">Half-Time</option>
+                <option value="Part-Time">Part-Time</option>
+            </select>
+            
+        </fieldset>
+        <br>
+        <h4>Additional Commetns</h4>
+        <textarea name="a" id="a" cols="100" rows="8" placeholder="type here....">Arman</textarea>
+        <br>
+        <input type="submit" name="submit" id="submit">
+        
+    </form>
+    
+</body>
+</html>

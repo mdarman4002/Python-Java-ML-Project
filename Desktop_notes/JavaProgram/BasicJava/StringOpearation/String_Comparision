@@ -1,0 +1,7 @@
+public class String{
+    public static void main(String args[]){
+        String s1 = "arm";
+        String s2 = "an";
+        System.out.println(s1.cancat(s2));
+    }
+}

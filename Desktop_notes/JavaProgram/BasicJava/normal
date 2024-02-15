@@ -1,0 +1,9 @@
+import java.util.*;
+class Testing{
+    public static void main(String[] args) {
+        String s = "EEC";
+        s.concat("Classes");
+        System.out.println(
+            s);
+    }
+}

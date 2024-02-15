@@ -1,0 +1,23 @@
+<body>
+    
+    <form method= 'post' >{% csrf_token %}
+        <!-- <div class = 'imgcontainer'>
+            <img src="img_avatar2.png" alt="Avatar" class="Avatar">
+        </div> -->
+        
+        <h1>Basic calculator</h1>
+        <label for="value1"><b>value1:</b></label>
+        <input type="text" placeholder="Enter value1" num="num1" required><br>
+
+        <label for="value2"><b>value2:</b></label>
+        <input type="text" placeholder="Enter value2" num="num2" required><br>
+
+        <label for="result: "><b>Result: </b></label>
+        <input type="text" value={{output}}><br>
+
+        <button type="submit">Calculate</button>
+        <label for="checkbox">
+            <input type="checkbox" checked="checked" name="remember" required>
+        </label>
+    </form>
+</body>

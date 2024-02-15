@@ -1,0 +1,19 @@
+class Main{
+    public static void main(String args[]){
+        int a = 10;
+        int b = 5;
+        int c = 15;
+        int d = 0;
+        
+        int x , y;
+        try{
+            x = (a+b)/ (c*d) ;
+            System.out.println("x: "+x);
+        }
+        catch(ArithmeticException e){
+            System.out.println("Division by zero error");
+        }
+        y = (a + b)-c ;
+        System.out.println("y: "+y);
+        
+    }

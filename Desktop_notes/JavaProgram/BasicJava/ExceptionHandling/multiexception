@@ -1,0 +1,22 @@
+class error2{
+    public static void main(String args[]){
+        int a[] = {5,10};
+        int b = 10;
+
+        try{
+           int x = a[2]/b -a[1]
+
+        }catch (ArithmeticException e){
+            System.out.println("error; in Arithmetic Expression");
+        }
+        catch (FileNotFoundException e){
+            System.out.println("error ;Array not found");
+        }
+        catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("error: ArrayIndexOutOfBoundsException");
+        }catch(IOException e){
+            System.out.println("error during input or output");
+        }
+        
+    }
+}
